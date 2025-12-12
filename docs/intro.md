@@ -239,4 +239,4 @@ Without settlement:
 4. **Consultation:** Meet with attorney if settlement rejected
 5. **Filing:** Prepare court documents if needed
 
-See [Action Items & Strategy](/docs/06-resources/action-items) for detailed steps.
+See [Action Items & Strategy](/docs/resources/action-items) for detailed steps.

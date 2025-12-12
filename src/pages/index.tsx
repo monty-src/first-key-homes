@@ -42,7 +42,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/01-overview/executive-summary">
+            to="/docs/overview/executive-summary">
             ⚡ Executive Summary
           </Link>
         </div>
@@ -64,7 +64,7 @@ function CaseOverview() {
               Persistent water leak causing 580% utility bill increase over 5+ months.
               FirstKey promised $1,161 credit but only provided $684, leaving $477.16 outstanding.
             </p>
-            <Link to="/docs/01-overview/water-leak">Learn more →</Link>
+            <Link to="/docs/overview/water-leak">Learn more →</Link>
           </div>
 
           <div className={styles.issueCard}>
@@ -75,7 +75,7 @@ function CaseOverview() {
               3-year-old child endangered. Vendor confirmed full replacement required.
               FirstKey offered broken portable heaters instead.
             </p>
-            <Link to="/docs/01-overview/heating-failure">Learn more →</Link>
+            <Link to="/docs/overview/heating-failure">Learn more →</Link>
           </div>
 
           <div className={styles.issueCard}>
@@ -85,7 +85,7 @@ function CaseOverview() {
               Perfect 3-year payment history. Senior VP at Bank of America. Software engineer.
               3-year-old daughter. Professional reputation damaged by forced absences.
             </p>
-            <Link to="/docs/01-overview/tenant-profiles">Learn more →</Link>
+            <Link to="/docs/overview/tenant-profiles">Learn more →</Link>
           </div>
 
           <div className={styles.issueCard}>
@@ -95,7 +95,7 @@ function CaseOverview() {
               Violations of N.C.G.S. § 42-42 (Implied Warranty of Habitability),
               § 42-38 (Landlord Duties), and § 75-1.1 (Unfair Trade Practices).
             </p>
-            <Link to="/docs/02-legal/violations">Learn more →</Link>
+            <Link to="/docs/legal/violations">Learn more →</Link>
           </div>
         </div>
       </div>
@@ -150,7 +150,7 @@ function DamagesOverview() {
           </div>
         </div>
         <div className={styles.damagesAction}>
-          <Link className="button button--warning button--lg" to="/docs/04-damages/calculation">
+          <Link className="button button--warning button--lg" to="/docs/damages/calculation">
             📊 Full Damages Breakdown
           </Link>
         </div>
@@ -178,7 +178,7 @@ function SettlementSection() {
                 <li>Positive reference letter</li>
               </ul>
             </div>
-            <Link to="/docs/05-settlement/demands">View all settlement options →</Link>
+            <Link to="/docs/settlement/demands">View all settlement options →</Link>
           </div>
 
           <div className={styles.settlementOption}>
@@ -215,7 +215,7 @@ function SettlementSection() {
                 <li>Prepare court filing</li>
               </ol>
             </div>
-            <Link to="/docs/06-resources/action-items">View full action plan →</Link>
+            <Link to="/docs/resources/action-items">View full action plan →</Link>
           </div>
         </div>
       </div>
@@ -235,31 +235,31 @@ function DocumentationGuide() {
             <p>Case overview and quick reference guide</p>
           </Link>
 
-          <Link to="/docs/02-legal/violations" className={styles.guideCard}>
+          <Link to="/docs/legal/violations" className={styles.guideCard}>
             <span className={styles.guideIcon}>⚖️</span>
             <Heading as="h3">Legal Framework</Heading>
             <p>NC statutes, violations, and legal claims</p>
           </Link>
 
-          <Link to="/docs/03-timeline/detailed-timeline" className={styles.guideCard}>
+          <Link to="/docs/timeline/detailed-timeline" className={styles.guideCard}>
             <span className={styles.guideIcon}>📅</span>
             <Heading as="h3">Timeline</Heading>
             <p>Detailed chronology of all events</p>
           </Link>
 
-          <Link to="/docs/04-damages/calculation" className={styles.guideCard}>
+          <Link to="/docs/damages/calculation" className={styles.guideCard}>
             <span className={styles.guideIcon}>💰</span>
             <Heading as="h3">Damages</Heading>
             <p>Financial impact and compensation calculations</p>
           </Link>
 
-          <Link to="/docs/05-settlement/demands" className={styles.guideCard}>
+          <Link to="/docs/settlement/demands" className={styles.guideCard}>
             <span className={styles.guideIcon}>🤝</span>
             <Heading as="h3">Settlement</Heading>
             <p>Settlement demands and negotiation strategy</p>
           </Link>
 
-          <Link to="/docs/06-resources/email-templates" className={styles.guideCard}>
+          <Link to="/docs/resources/email-templates" className={styles.guideCard}>
             <span className={styles.guideIcon}>📧</span>
             <Heading as="h3">Resources</Heading>
             <p>Templates, contacts, and action items</p>
