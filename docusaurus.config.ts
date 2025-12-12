@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'First Key Homes Final Notice',
-  tagline: 'Dinosaurs are cool',
+  title: 'FirstKey Homes Legal Case Documentation',
+  tagline: 'Comprehensive documentation of habitability violations and legal claims',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,25 +15,21 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://firstkeyhomes-case.local',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  onBrokenLinks: 'warn',
 
-  onBrokenLinks: 'throw',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // Internationalization
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    'docusaurus-lunr-search',
+  ],
 
   presets: [
     [
@@ -41,26 +37,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: undefined,
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -68,29 +49,33 @@ const config: Config = {
     ],
   ],
 
+  markdown: {
+    mermaid: true,
+  },
+
+  themes: ['@docusaurus/theme-mermaid'],
+
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'First Key Homes Final Notice',
+      title: 'FirstKey Homes Case',
       logo: {
-        alt: 'First Key Homes Final Notice Logo',
+        alt: 'FirstKey Homes Legal Case',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'caseDocumentation',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: '#contact',
+          label: 'Contact',
           position: 'right',
         },
       ],
@@ -99,50 +84,69 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Case Documentation',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Executive Summary',
+              to: '/docs/01-overview/executive-summary',
+            },
+            {
+              label: 'Legal Framework',
+              to: '/docs/02-legal/violations',
+            },
+            {
+              label: 'Timeline',
+              to: '/docs/03-timeline/detailed-timeline',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Claims & Damages',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Water Leak Issues',
+              to: '/docs/01-overview/water-leak',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Heating Failure',
+              to: '/docs/01-overview/heating-failure',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Damages Calculation',
+              to: '/docs/04-damages/calculation',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Action Items',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Settlement Demands',
+              to: '/docs/05-settlement/demands',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Email Templates',
+              to: '/docs/06-resources/email-templates',
+            },
+            {
+              label: 'Legal Resources',
+              to: '/docs/06-resources/legal-contacts',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `FirstKey Homes Legal Case Documentation | Prepared ${new Date().toLocaleDateString()}`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['bash', 'json', 'typescript', 'javascript'],
+    },
+    mermaid: {
+      theme: {
+        light: 'default',
+        dark: 'dark',
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
