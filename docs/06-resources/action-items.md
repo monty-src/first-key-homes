@@ -166,7 +166,7 @@ sidebar_position: 1
 2. **We have perfect documentation** - 73+ days of records
 3. **FirstKey has no viable defense** - liability is clear
 4. **Jury will sympathize** - child endangerment + perfect tenants
-5. **Settlement is reasonable** - $35,000 << $147,210 exposure
+5. **Settlement is reasonable** - $35,000 is much less than $147,210 exposure
 6. **If no settlement, we win in court** - high probability
 7. **FirstKey knows all this** - incentive to settle
 
