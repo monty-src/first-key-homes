@@ -88,15 +88,15 @@ const config: Config = {
           items: [
             {
               label: 'Executive Summary',
-              to: '/docs/01-overview/executive-summary',
+              to: '/docs/overview/executive-summary',
             },
             {
               label: 'Legal Framework',
-              to: '/docs/02-legal/violations',
+              to: '/docs/legal/violations',
             },
             {
               label: 'Timeline',
-              to: '/docs/03-timeline/detailed-timeline',
+              to: '/docs/timeline/detailed-timeline',
             },
           ],
         },
@@ -105,15 +105,15 @@ const config: Config = {
           items: [
             {
               label: 'Water Leak Issues',
-              to: '/docs/01-overview/water-leak',
+              to: '/docs/overview/water-leak',
             },
             {
               label: 'Heating Failure',
-              to: '/docs/01-overview/heating-failure',
+              to: '/docs/overview/heating-failure',
             },
             {
               label: 'Damages Calculation',
-              to: '/docs/04-damages/calculation',
+              to: '/docs/damages/calculation',
             },
           ],
         },
@@ -122,15 +122,15 @@ const config: Config = {
           items: [
             {
               label: 'Settlement Demands',
-              to: '/docs/05-settlement/demands',
+              to: '/docs/settlement/demands',
             },
             {
               label: 'Email Templates',
-              to: '/docs/06-resources/email-templates',
+              to: '/docs/resources/email-templates',
             },
             {
               label: 'Legal Resources',
-              to: '/docs/06-resources/legal-contacts',
+              to: '/docs/resources/legal-contacts',
             },
           ],
         },
