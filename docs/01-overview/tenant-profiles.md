@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Tenant Profiles & Impact
 
-## Montez Byrd - Senior Vice President, Bank of America
+## Montier Elliott - Senior Vice President, Bank of America
 
 ### Professional Profile
 
@@ -17,7 +17,8 @@ sidebar_position: 5
 
 **Why This Matters:**
 
-As an SVP in a major financial institution, Montez is:
+As an SVP in a major financial institution, Montier is:
+
 - Expected to have high office visibility
 - Leading teams and setting strategic direction
 - Building relationships with peers and leadership
@@ -25,6 +26,7 @@ As an SVP in a major financial institution, Montez is:
 - Often working on sensitive, time-sensitive projects
 
 **First weeks/months of SVP promotion are CRITICAL for:**
+
 - Establishing authority and credibility
 - Building relationships with new peers
 - Demonstrating strategic thinking
@@ -33,25 +35,27 @@ As an SVP in a major financial institution, Montez is:
 
 ### Impact of Forced Absences
 
-| Impact | Damage | Severity |
-|--------|--------|----------|
-| Missed meetings | 20+ hours | 🔴 HIGH |
-| Cannot establish visibility | Ongoing | 🔴 HIGH |
-| Leadership credibility at risk | Relationship damage | 🔴 HIGH |
-| Network building disrupted | Months behind | 🔴 HIGH |
-| Professional reputation | At stake during crucial period | 🔴 HIGH |
-| Compensation at risk | Performance-based bonuses | 🔴 HIGH |
+| Impact                         | Damage                         | Severity |
+| ------------------------------ | ------------------------------ | -------- |
+| Missed meetings                | 20+ hours                      | 🔴 HIGH  |
+| Cannot establish visibility    | Ongoing                        | 🔴 HIGH  |
+| Leadership credibility at risk | Relationship damage            | 🔴 HIGH  |
+| Network building disrupted     | Months behind                  | 🔴 HIGH  |
+| Professional reputation        | At stake during crucial period | 🔴 HIGH  |
+| Compensation at risk           | Performance-based bonuses      | 🔴 HIGH  |
 
 ### The Catch-22
 
 **Impossible Situation Created by FirstKey:**
 
 - **Option A: Work from home**
+
   - WiFi disrupted when heaters plugged in (need heat)
   - Cannot effectively work
   - Must go to office anyway
 
 - **Option B: Go to office**
+
   - Missing home waiting for contractor (never comes)
   - Home unattended
   - Showing low visibility in new role
@@ -109,17 +113,20 @@ As an SVP in a major financial institution, Montez is:
 ### Impact of Crisis
 
 **Professional:**
+
 - Cannot effectively work (WiFi disrupted, stress)
 - Ongoing communication with FirstKey consuming time
 - Mental burden of managing crisis
 
 **Personal:**
+
 - Constant anxiety about daughter's safety
 - Emotional exhaustion from broken promises
 - Relationship strain from ongoing crisis
 - Sleep disruption and stress
 
 **Family:**
+
 - Primary burden of childcare during emergency
 - Managing household during crisis
 - Documentation and communication management
@@ -139,13 +146,15 @@ As an SVP in a major financial institution, Montez is:
 ### Living Situation
 
 **Before Crisis:**
+
 - Stable home environment
 - Consistent routine
 - Safe, warm living space
 - Normal childhood activities
 
 **During Heating Crisis:**
-- 51+ hours in 57°F home
+
+- 70+ hours in 57°F home
 - Winter coat worn indoors
 - Multiple blankets for sleep
 - Cannot play normally
@@ -155,13 +164,13 @@ As an SVP in a major financial institution, Montez is:
 
 **Documented Conditions:**
 
-| Concern | Detail | Risk |
-|---------|--------|------|
-| **Temperature** | 57°F for 51+ hours | Hypothermia risk |
-| **Duration** | Extended cold exposure | Cumulative stress |
-| **Age** | Only 3 years old | Higher vulnerability |
-| **Season** | Winter (coldest time) | Compounds risk |
-| **Alternatives** | Broken heaters only | No adequate solution |
+| Concern          | Detail                 | Risk                 |
+| ---------------- | ---------------------- | -------------------- |
+| **Temperature**  | 57°F for 70+ hours     | Hypothermia risk     |
+| **Duration**     | Extended cold exposure | Cumulative stress    |
+| **Age**          | Only 3 years old       | Higher vulnerability |
+| **Season**       | Winter (coldest time)  | Compounds risk       |
+| **Alternatives** | Broken heaters only    | No adequate solution |
 
 ### CDC Guidelines
 
@@ -177,12 +186,14 @@ As an SVP in a major financial institution, Montez is:
 ### Impact on Development
 
 **Physical:**
+
 - Sleep disruption during critical development period
 - Stress hormones impact growth
 - Increased illness susceptibility
 - Delayed healing from any illness
 
 **Emotional/Psychological:**
+
 - Trauma from unsafe environment
 - Anxiety associated with home
 - Separation from normal routine
@@ -190,6 +201,7 @@ As an SVP in a major financial institution, Montez is:
 - Question: "Why is our house so cold?" (unsafe environment question)
 
 **Social:**
+
 - Missed playdates, activities
 - Disrupted routines
 - Separation from family (child removed)
@@ -216,8 +228,8 @@ As an SVP in a major financial institution, Montez is:
 
 ### Payment Record
 
-| Year | Status | Notes |
-|------|--------|-------|
+| Year | Status     | Notes               |
+| ---- | ---------- | ------------------- |
 | 2022 | ✅ Perfect | On time every month |
 | 2023 | ✅ Perfect | On time every month |
 | 2024 | ✅ Perfect | On time every month |
@@ -268,24 +280,24 @@ As an SVP in a major financial institution, Montez is:
 
 ### Financial Burden
 
-| Item | Cost |
-|------|------|
-| Excess water bills | $1,500+ |
-| Outstanding credit owed | $477.16 |
-| Temp housing/emergency | $1,200+ |
-| Supplies, travel, etc | $500+ |
-| **Total Direct Cost** | **$3,677+** |
+| Item                    | Cost        |
+| ----------------------- | ----------- |
+| Excess water bills      | $1,500+     |
+| Outstanding credit owed | $477.16     |
+| Temp housing/emergency  | $1,200+     |
+| Supplies, travel, etc   | $500+       |
+| **Total Direct Cost**   | **$3,677+** |
 
 ### Time Investment
 
-| Activity | Hours | Cumulative |
-|----------|-------|-----------|
-| Phone calls | 30+ | 30 |
-| Emails | 20+ | 50 |
-| Documentation | 15+ | 65 |
-| Contractor coordination | 10+ | 75 |
-| Legal research | 5+ | 80+ |
-| **Total Time** | **~80 hours** | |
+| Activity                | Hours         | Cumulative |
+| ----------------------- | ------------- | ---------- |
+| Phone calls             | 30+           | 30         |
+| Emails                  | 20+           | 50         |
+| Documentation           | 15+           | 65         |
+| Contractor coordination | 10+           | 75         |
+| Legal research          | 5+            | 80+        |
+| **Total Time**          | **~80 hours** |            |
 
 ### Professional Impact
 

@@ -43,7 +43,7 @@ sidebar_position: 1
 
 **Morning** - 24+ hours without heat
 **3:30 PM** - "Told to wait for follow-up" - NO CALL
-**Evening** - 51+ hours without functional heat
+**Evening** - 70+ hours without functional heat
 - Child must be removed from home for safety
 - Final legal demand letter prepared
 

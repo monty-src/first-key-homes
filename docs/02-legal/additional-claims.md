@@ -30,7 +30,7 @@ In addition to statutory violations, FirstKey faces common law claims:
 
 ## Child Endangerment
 - Knowing endangerment
-- 51+ hours at 57°F
+- 70+ hours at 57°F
 - Refused safe alternative
 - Inadequate solution offered
 

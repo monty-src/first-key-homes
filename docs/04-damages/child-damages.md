@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ## Health & Safety Damages
 
-- **51+ hours cold exposure**: $3,000
+- **70+ hours cold exposure**: $3,000
 - **Emergency removal necessity**: $2,000
 
 ## Disruption & Trauma
@@ -20,7 +20,7 @@ sidebar_position: 5
 ## Why This Matters
 
 3-year-old endangered by:
-- 51+ hours at 57°F (below safe levels)
+- 70+ hours at 57°F (below safe levels)
 - No adequate temporary solution
 - Emergency removal from home
 - Trauma from unsafe conditions

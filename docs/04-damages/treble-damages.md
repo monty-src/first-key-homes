@@ -26,14 +26,14 @@ sidebar_position: 7
    - Knew correct fix but chose to delay
 
 4. **Knowing Child Endangerment**
-   - 3-year-old in 57°F home for 51+ hours
+   - 3-year-old in 57°F home for 70+ hours
    - Refused safe alternative (hotel)
    - Offered insufficient temporary solution
    - Continued delays despite child in home
 
 5. **Systematic Delay Tactics**
    - 5 months on water leak with multiple service calls
-   - 51+ hours on emergency heating without fix
+   - 70+ hours on emergency heating without fix
    - No timeline ever provided
    - Excuses changed repeatedly
 

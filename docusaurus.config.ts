@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'FirstKey Homes Legal Case Documentation',
+  title: 'Property Management Issues',
   tagline: 'Comprehensive documentation of habitability violations and legal claims',
   favicon: 'img/favicon.ico',
 
@@ -38,8 +38,8 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl: undefined,
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          showLastUpdateTime: false,
+          showLastUpdateAuthor: false,
         },
         blog: false,
         theme: {
@@ -61,9 +61,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'FirstKey Homes Case',
+      title: 'Property Management Issues',
       logo: {
-        alt: 'FirstKey Homes Legal Case',
+        alt: 'Property Management Issues',
         src: 'img/logo.svg',
       },
       items: [
@@ -135,7 +135,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `FirstKey Homes Legal Case Documentation | Prepared ${new Date().toLocaleDateString()}`,
+      copyright: `Property Management Issues Legal Case Documentation | Prepared ${new Date().toLocaleDateString()}`,
     },
     prism: {
       theme: prismThemes.github,

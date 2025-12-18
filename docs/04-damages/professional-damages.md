@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Professional Impact Damages
 
-## SVP Career Damages (Montez Byrd)
+## SVP Career Damages (Montier Elliott)
 
 - **Lost work time** (20+ hours @ $150/hr): $3,000
 - **Career impact** (visibility, credibility): $2,000

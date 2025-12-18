@@ -17,7 +17,7 @@ FirstKey Homes has violated multiple North Carolina statutes protecting tenant r
 
 **FirstKey's Violations:**
 - Failed to maintain functional plumbing (5+ months)
-- Failed to maintain functional heating (51+ hours at 57°F)
+- Failed to maintain functional heating (70+ hours at 57°F)
 - Failed to maintain electrical system for safe temporary heating
 - Property not fit for occupancy with 3-year-old at 57°F
 
@@ -34,7 +34,7 @@ FirstKey Homes has violated multiple North Carolina statutes protecting tenant r
 
 **FirstKey's Violations:**
 - Did not keep heating in good working order (failed system)
-- Did NOT promptly repair (51+ hours without heat)
+- Did NOT promptly repair (70+ hours without heat)
 - Did not keep plumbing working (leak for 5+ months)
 - Did not maintain electrical for safe operation
 
@@ -208,7 +208,7 @@ If landlord's actions make premises uninhabitable, tenant constructively evicted
 - ✅ 5+ months = not "prompt" repair (breach of standard)
 
 ### Heating Failure Violations
-- ✅ 51+ hours without heat (breach of § 42-42, § 42-38)
+- ✅ 70+ hours without heat (breach of § 42-42, § 42-38)
 - ✅ 57°F (below 68°F minimum, uninhabitable)
 - ✅ Vendor confirmed replacement needed (landlord knowledge)
 - ✅ Offered broken heaters instead of fix (bad faith)
@@ -228,7 +228,7 @@ If landlord's actions make premises uninhabitable, tenant constructively evicted
 
 ### "We sent repair people"
 - **Response**: Multiple visits with no results. Law requires PROMPT repairs that FIX problem.
-- **Evidence**: 5+ months still broken, 51+ hours still no heat
+- **Evidence**: 5+ months still broken, 70+ hours still no heat
 
 ### "We offered portable heaters"
 - **Response**: Inadequate temporary solution when vendor said replacement needed. Creates electrical hazard.
@@ -236,7 +236,7 @@ If landlord's actions make premises uninhabitable, tenant constructively evicted
 
 ### "We're processing the approval"
 - **Response**: "Approval process" cannot delay emergency repairs. No timeline acceptable.
-- **Evidence**: 51+ hours is unreasonable by any standard
+- **Evidence**: 70+ hours is unreasonable by any standard
 
 ### "Water issue is complex"
 - **Response**: 5+ months shows either incompetence or neglect. Either way, FirstKey failed.
