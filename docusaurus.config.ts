@@ -82,59 +82,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Case Documentation',
-          items: [
-            {
-              label: 'Executive Summary',
-              to: '/docs/overview/executive-summary',
-            },
-            {
-              label: 'Legal Framework',
-              to: '/docs/legal/violations',
-            },
-            {
-              label: 'Timeline',
-              to: '/docs/timeline/detailed-timeline',
-            },
-          ],
-        },
-        {
-          title: 'Claims & Damages',
-          items: [
-            {
-              label: 'Water Leak Issues',
-              to: '/docs/overview/water-leak',
-            },
-            {
-              label: 'Heating Failure',
-              to: '/docs/overview/heating-failure',
-            },
-            {
-              label: 'Damages Calculation',
-              to: '/docs/damages/calculation',
-            },
-          ],
-        },
-        {
-          title: 'Action Items',
-          items: [
-            {
-              label: 'Settlement Demands',
-              to: '/docs/settlement/demands',
-            },
-            {
-              label: 'Email Templates',
-              to: '/docs/resources/email-templates',
-            },
-            {
-              label: 'Legal Resources',
-              to: '/docs/resources/legal-contacts',
-            },
-          ],
-        },
-      ],
+      links: [],
       copyright: `Property Management Issues Legal Case Documentation | Prepared ${new Date().toLocaleDateString()}`,
     },
     prism: {

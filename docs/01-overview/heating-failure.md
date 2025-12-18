@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 # Issue #1: Heating System Failure
-
+<!-- 
 ## Legal Violations
 
 ### N.C.G.S. § 42-42 - Implied Warranty of Habitability
@@ -79,16 +79,16 @@ sidebar_position: 3
 
 - Must handle normal operation of appliances
 - Breaker constantly tripping = hazard
-- Fire risk from overloaded circuits
+- Fire risk from overloaded circuits -->
 
-### Charlotte-Mecklenburg Specific
+<!-- ### Charlotte-Mecklenburg Specific
 
 **Local Heating Requirements:**
 
 - Minimum 68°F capability required
 - Must be maintained by landlord
 - Repairs must be prompt
-- Emergency repairs = immediate
+- Emergency repairs = immediate -->
 
 
 ## Visits & Communications: The FirstKey Runaround

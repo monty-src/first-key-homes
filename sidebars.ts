@@ -4,9 +4,10 @@ const sidebars: SidebarsConfig = {
   caseDocumentation: [
     'lease-comparison',
     'timelines',
-    'code-enforcement',
-    'shareholders',
-    'concerns',
+    // 'overview/heating-failure',
+    // 'code-enforcement',
+    // 'shareholders',
+    // 'concerns',
     // 'settlement-demand',
     // {
     //   type: 'category',
