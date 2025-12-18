@@ -1,13 +1,16 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Property Management Issues',
-  tagline: 'Comprehensive documentation of habitability violations and legal claims',
-  favicon: 'img/favicon.ico',
+  title: "Property Management Issues",
+  tagline:
+    "Comprehensive documentation of habitability violations and legal claims",
+  favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -15,35 +18,35 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://firstkeyhomes-case.local',
+  url: "https://firstkeyhomes-case.local",
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/first-key-homes/',
+  baseUrl: "/first-key-homes/",
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: "warn",
 
   // Internationalization
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
-  plugins: [
-    'docusaurus-lunr-search',
-  ],
+  plugins: ["docusaurus-lunr-search"],
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
+          sidebarPath: "./sidebars.ts",
           editUrl: undefined,
           showLastUpdateTime: false,
           showLastUpdateAuthor: false,
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -53,47 +56,47 @@ const config: Config = {
     mermaid: true,
   },
 
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: ["@docusaurus/theme-mermaid"],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: "img/docusaurus-social-card.jpg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Property Management Issues',
+      title: "Property Management Issues",
       logo: {
-        alt: 'Property Management Issues',
-        src: 'img/logo.svg',
+        alt: "Property Management Issues",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'caseDocumentation',
-          position: 'left',
-          label: 'Documentation',
+          type: "docSidebar",
+          sidebarId: "caseDocumentation",
+          position: "left",
+          label: "Documentation",
         },
         {
-          href: '#contact',
-          label: 'Contact',
-          position: 'right',
+          href: "#contact",
+          label: "Contact",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [],
       copyright: `Property Management Issues Legal Case Documentation | Prepared ${new Date().toLocaleDateString()}`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['bash', 'json', 'typescript', 'javascript'],
+      additionalLanguages: ["bash", "json", "typescript", "javascript"],
     },
     mermaid: {
       theme: {
-        light: 'default',
-        dark: 'dark',
+        light: "default",
+        dark: "dark",
       },
     },
   } satisfies Preset.ThemeConfig,
