@@ -17,7 +17,7 @@ const config: Config = {
   // Set the production url of your site here
   url: 'https://firstkeyhomes-case.local',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/',
+  baseUrl: '/first-key-homes/',
 
   onBrokenLinks: 'warn',
 
